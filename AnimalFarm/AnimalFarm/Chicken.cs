@@ -26,6 +26,8 @@ namespace AnimalFarm
                 {
                     throw new Exception("Chicken's name can't be empty!");
                 }
+
+                name = value;
             }
         }
 
@@ -38,6 +40,8 @@ namespace AnimalFarm
                 {
                     throw new Exception("Chicken's age must be between 0 and 15.");
                 }
+
+                age = value;
             }
         }
 
