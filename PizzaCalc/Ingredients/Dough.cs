@@ -28,7 +28,7 @@ namespace Ingredients
                         flourType = value.ToLower();
                         break;
                     case "wholegrain":
-                        flourType = value.ToLower();
+                        flourType = value.ToLower();    
                         break;
                     default:
                         throw new Exception("Unknown flour type, try 'White' or 'Wholegrain'!");
@@ -79,7 +79,7 @@ namespace Ingredients
 
         public double GetDoughCalories()
         {
-            switch (flourType)
+            switch (FlourType)
             {
                 case "white" when Bakingtechnique == "chewy":
                     return Weight * baseCalories * 1.5 * 1.1;

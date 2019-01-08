@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="DoughTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToppingTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
